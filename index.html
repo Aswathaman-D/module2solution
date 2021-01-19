@@ -1,0 +1,139 @@
+<!doctype html>
+<html>
+
+	<head>
+
+	<style>
+		* { box-sizing: border-box
+			}
+body {
+	color:black;
+	font-family: sans-serif , serif  ;
+	overflow: auto;
+
+}
+
+h1 {
+	text-align: center;
+
+}
+h2 {
+	text-align: center;
+	background: right center blue;
+	padding: 10px;
+	border: 1px solid black ;
+	margin-top: auto;
+	width: 40%;
+	float: right;
+	font-size: 175%;
+	}
+#white {
+	color: white;
+	background-color: red; 
+	 }
+
+p {
+	clear:right;
+	padding: 0px 0px 0px 10px;
+	font-size: 125%;
+	}
+
+section { display: inline;
+	border: 1px solid black;
+	margin: 10px;
+	box-sizing: border-box;
+	float: left;
+	}
+
+#box1 {
+	background-color:gray;	
+	width: 31%;
+	}
+
+#box2 {
+	background-color:gray;
+	width: 31%;
+	}
+
+#box3 { 
+	background-color:gray;	
+	width: 31%;
+	}
+
+}
+
+@media (min-width:992px) {
+    
+		#box1 {
+    	width: 33%;
+     	}
+ 		#box2 {
+    	width: 33%;
+ 		} 
+ 		#box3{
+    	width: 33%;
+    	}
+    }
+
+  @media (min-width: 768px) and (max-width:991px) {
+
+ 		#box1 {
+    	width: 47%;
+  	    }
+ 		#box2 {
+    	width: 47%;
+    	} 
+    	#box3{
+    	width: 97%;
+    	
+    	}
+    }
+
+       @media (max-width:767px){
+       	
+		
+		#box1{
+    	width: 97%;
+    	 
+    	 }
+ 		#box2{
+    	width: 97%;
+   		 } 
+    	#box3 {
+    	width: 97%;
+    	 }
+    }
+
+	</style>
+
+	</head>
+
+
+
+	<body>
+		
+		<h1>Our Menu</h1>
+			<section id="box1" class="lg1">
+				<h2>Chicken</h2>
+				<p>Whenever you commit to this repository, GitHub Pages will run Jekyll to rebuild the pages in your site, from the content in your Markdown files</p>
+			</section> 
+
+			<section id="box2" class="lg2">
+				<h2 id="white">Beef</h2> 	
+				<p>Whenever you commit to this repository, GitHub Pages will run Jekyll to rebuild the pages in your site, from the content in your Markdown files.</p>
+			</section>	
+			
+			<section id="box3" class="lg3">
+				<h2>Shushi</h2>
+				<p>Whenever you commit to this repository, GitHub Pages will run Jekyll to rebuild the pages in your site, from the content in your Markdown files.</p>
+			</section>
+
+		
+
+	</body>
+
+
+
+
+
+</html>
